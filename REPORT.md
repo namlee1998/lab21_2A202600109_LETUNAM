@@ -13,7 +13,7 @@
 - **max_seq_length**: 1024 (p95 = 53, rounded up manually for training stability)
 - **GPU**: NVIDIA Tesla T4, 15 GB VRAM
 - **Training cost**: ~$0.12 (~18 phút @ ~$0.40/hr)
-- **HF Hub link**: Không sử dụng (Option A)
+- **HF Hub link**: [Không sử dụng (Option A)](https://huggingface.co/namleeee/qwen2.5-3b-vi-lab21-r16)
 
 ---
 
@@ -30,7 +30,8 @@
 
 # 3. Loss Curve Analysis
 
-[Đính kèm `loss_curve.png`]
+<img width="1079" height="488" alt="image" src="https://github.com/user-attachments/assets/5d86bc45-4dd8-45b8-b21d-c8e3f77f3f03" />
+
 
 - Quan sát:
 Loss giảm khá nhanh trong giai đoạn đầu và bắt đầu ổn định sau khoảng vài trăm steps. Không xuất hiện overfitting rõ ràng vì dataset khá nhỏ và số epoch không quá lớn. Tuy nhiên ở rank 64, loss improvement bắt đầu chậm lại dù số lượng trainable parameters tăng đáng kể. Điều này cho thấy dataset hiện tại không đủ lớn để tận dụng fully capacity của rank cao.
