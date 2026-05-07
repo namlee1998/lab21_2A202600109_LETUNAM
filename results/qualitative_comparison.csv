@@ -1,0 +1,27 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Machine learning là một phân khúc của trí tuệ nhân tạo, nó tập trung vào việc thiết lập các mô hình máy móc để học tập từ dữ liệu và từ đó có thể dự đoán hoặc hành động. Nhìn vào khía cạnh đơn giản, nó có nghĩa là máy tính học tập từ dữ liệu. Mô hình học được từ dữ liệu này có thể thực hiện các nhiệ",Machine learning là một bộ môn công nghệ máy tính dựa trên việc học tập và cải thiện các dự đoán dựa trên dữ liệu mà không có sự hướng dẫn trực tiếp từ người dùng. Nó là một phần của AI (trí tuệ nhân tạo) và sử dụng thuật toán và các mô hình học máy để học từ dữ liệu và từ đó đưa ra các dự đoán hoặc
+Viết đoạn code Python tính số Fibonacci thứ n.,"Để tính số Fibonacci thứ n, bạn có thể sử dụng hàm đệ quy hoặc vòng lặp. Đây là một đoạn mã Python cho phép bạn tính số Fibonacci thứ n:
+
+```python
+def fibonacci(n):
+    if n <= 0:
+        return ""N phải là một số dương""
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+ ","Để tính số Fibonacci thứ n, bạn có thể viết một hàm Python đơn giản như sau:
+```python
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+```
+Đây là một hàm đệ quy để tính số Fibonacci. Nếu n bằng 0 hoặc 1,"
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,"1. **Điều hướng và bố trí tốt**: Thiết kế giao diện phải dễ tìm kiếm, dễ sử dụng và dễ hiểu, giúp người dùng có thể dễ dàng di chuyển giữa các phần tử của trang web hoặc ứng dụng. 2. **Tương tác và phản hồi tốt**: Giao diện phải phản hồi nhanh và hiệu quả với các hành động của người dùng. Các hành đ","1. Người dùng là trung tâm: Thiết kế UI/UX phải tập trung vào nhu cầu và trải nghiệm của người dùng, đảm bảo rằng mọi yếu tố thiết kế đều phù hợp với mục đích của người dùng và giải quyết các vấn đề mà họ gặp phải. 2. Phân loại thông tin: Người dùng cần dễ dàng phân loại thông tin và chức năng trên "
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,"LoRA (Low-Rank Approximation) và QLoRA (Quantized LoRA) là hai phương pháp tối ưu hóa mô hình NLU (Neural Language Understanding) được phát triển để giảm số lượng tham số trong mô hình NLU, đồng thời vẫn giữ được độ chính xác của mô hình. LoRA sử dụng một quá trình biến đổi tham số để giảm số lượng ",LoRA (Low-rank approximation) và QLoRA (Quantized LoRA) là hai phương pháp khác nhau được sử dụng để cải thiện hiệu suất và hiệu quả tính toán của mô hình NLU (Nội dung phân tích ngôn ngữ). LoRA là một kỹ thuật cải thiện khả năng học của mô hình NLU bằng cách thay đổi các thông số kỹ thuật để giảm k
+"Phân biệt prompt engineering, RAG, và fine-tuning.","Prompt Engineering, RAG, và Fine-Tuning là những phương pháp khác nhau được sử dụng để cải thiện hiệu suất của mô hình AI. Prompt Engineering là một kỹ thuật để cải thiện kết quả trả lời của mô hình bằng cách sử dụng câu hỏi hoặc lệnh cụ thể để hướng dẫn mô hình trả lời đúng. Phương pháp này sử dụng","Prompt engineering, RAG (Retrieval-Augmented Generation), và fine-tuning là ba kỹ thuật khác nhau được sử dụng để cải thiện hiệu suất của mô hình AI. Prompt engineering là kỹ thuật trong đó người dùng cung cấp một prompt (một câu hỏi hoặc câu lệnh) cho mô hình AI, và mô hình AI trả lời dựa trên prom"
